@@ -42,15 +42,18 @@
         <Button
             style="@style/button_func_style"
             android:id="@+id/btnPlusMinus"
+            android:layout_weight="1"
             android:text="+/-"
             android:textColor="#00796B"
             android:textSize="20sp"/>
         <Button
             style="@style/button_func_style"
+            android:layout_weight="1"
             android:id="@+id/btnProcent"
             android:text="%"/>
         <Button
             style="@style/button_func_style"
+            android:layout_weight="1"
             android:id="@+id/btnBolu"
             android:text="/"
             android:textColor="#00796B"
